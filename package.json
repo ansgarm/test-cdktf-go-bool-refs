@@ -1,0 +1,12 @@
+{
+  "name": "test-cdktf-go-bool-refs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "fail": "yarn && yarn cdktf get && yarn cdktf synth"
+  },
+  "dependencies": {
+    "cdktf-cli": "^0.7.0"
+  }
+}
